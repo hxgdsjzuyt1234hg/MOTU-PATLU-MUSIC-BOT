@@ -69,7 +69,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❰𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘❱", url="https://t.me/VILLAIN_MUSIC_UPDATE            ),
+                text="❰𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘❱", url="https://t.me/VILLAIN_MUSIC_UPDATE "          
+                ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
