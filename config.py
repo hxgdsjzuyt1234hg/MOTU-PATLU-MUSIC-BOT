@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("28823969"))
-API_HASH = getenv("8b1809d12cb3ac2c445f146b3262e521")
+API_ID = int(getenv("27317050"))
+API_HASH = getenv("2c28cb8f527dbcd8fbd92a76b44dacb8")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7633980475:AAEpSiZOYYEdnIrpnLaOHpec_gDUjE7nsWk")
+BOT_TOKEN = getenv("7918682864:AAHkRDkMjdDy_HXYSy0En3QSGcKTqTowe0k")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://ajaybabu69f:XF0vwerJ7QuyYJGS@cluster0.1vop5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002014882444))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7865363008))
+OWNER_ID = int(getenv("8134376734", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
